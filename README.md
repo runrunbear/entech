@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 #. app.js:
 import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
-
+4. npm run build
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
