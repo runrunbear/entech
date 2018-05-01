@@ -1,6 +1,12 @@
 1. create-react-app entech
 2. yarn add react-router-dom
-3. 
+3. yarn add react-bootstrap bootstrap@3
+# index.js
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
+#. app.js:
+import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
