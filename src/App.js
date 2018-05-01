@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './custom.css';
+
 import Home from './components/home';
 import About from './components/about';
 import Footer from './components/footer';
@@ -12,8 +14,10 @@ const App = () => (
 		<div>
 			<Header />
 			<hr />
+			<h1> big text </h1>
 			<Route exact path="/" component={Home} />
 			<Route path="/about" component={About} />
+			<h2> big text </h2>
 			<Footer />
 		</div>
 	</Router>
